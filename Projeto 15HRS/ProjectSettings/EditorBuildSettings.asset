@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/Cena De Progama\xE7\xE3p.unity"
+    guid: 65540f0bd00b4e449916c8505890940b
+  - enabled: 1
+    path: Assets/Scenes/fase 1.unity
+    guid: ca7b8d0b050c2b64da15f63e2d7fe1fa
   m_configObjects: {}

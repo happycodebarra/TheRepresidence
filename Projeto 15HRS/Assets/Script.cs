@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Script : MonoBehaviour
 {
-    void loadScene(string nomeDaCena)
+    
+    public void loadScene(int id)
     {
-         //SceneManagement.loadScene(nomeDaCena);  //Carrega a cena baseada no nome dela
+        SceneManager.LoadScene(id);
     }
 }
