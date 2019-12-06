@@ -12,9 +12,12 @@ public class Perguntas : MonoBehaviour
 class Pergunta
 {
     public string texto;
-    public enum Tipo {População, Financeiro, StatusAmericano, StatusSovietico }
 
-    public Tipo tipoDePergunta;
+    public enum TipoDeGoverno {Americano,Sovietico}
+    public enum TipoDePergunta {População, Financeiro}
+
+    public TipoDePergunta tipoDePergunta;
+    public TipoDeGoverno governo;
 
     public int valorDaPergunta;
 }
