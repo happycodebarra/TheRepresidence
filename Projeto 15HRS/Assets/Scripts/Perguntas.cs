@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Perguntas : MonoBehaviour
 {
-    [SerializeField]
-    List<Pergunta> listaDePerguntas = new List<Pergunta>();
+    
+    public List<Pergunta> listaDePerguntas = new List<Pergunta>();
 }
 
 [System.Serializable]
-class Pergunta
+public class Pergunta
 {
-    public string texto;
+    public string texto, opcao1, opcao2;
 
     public enum TipoDeGoverno {Americano,Sovietico}
     public enum TipoDePergunta {População, Financeiro}
